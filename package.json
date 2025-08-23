@@ -2,7 +2,7 @@
   "name": "portfolio-web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sanadsoman45.github.io/portfolio/",
+  "homepage": "https://sanadsoman45.github.io/devportfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
