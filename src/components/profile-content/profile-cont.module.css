@@ -1,0 +1,69 @@
+.profileCont {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profileCont::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+/* Slots reserve space and center their children */
+.nameSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.4rem;       /* reserve space for one line */
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.skillsSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;   /* allow wrap if needed */
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.codeBoxSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;        /* reserved height for the code box */
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
+.opaqueBg {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: min(90vw, 45rem);  /* CHANGED: responsive width for better centering */
+  position: relative;       /* keep internal layout normal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.dashedBorder {
+  border: 2px dashed white;
+  height: 100%;
+  width: 100%;
+}

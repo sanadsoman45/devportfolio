@@ -1,0 +1,6 @@
+.custom-rounded-left {
+  border-top-left-radius: 2rem !important;
+  border-bottom-right-radius: 1.5rem !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
