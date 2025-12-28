@@ -1,4 +1,6 @@
+import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const PersonalProjects = () => {
   const projects = [
