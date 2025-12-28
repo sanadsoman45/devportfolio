@@ -1,6 +1,4 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const PersonalProjects = () => {
   const projects = [
@@ -41,7 +39,7 @@ const PersonalProjects = () => {
         Built a robust RESTful API using Spring Boot to manage recipes and ingredient inventories. 
         Enabled intelligent recipe recommendations and stock management for a seamless cooking experience.
       `,
-      proj_tools: ["Java", "Spring Boot"],
+      proj_tools: ["Spring Boot", "Java"],
       proj_url: "https://github.com/sanadsoman45/SuperChef-JPA",
     },
     {
@@ -53,6 +51,15 @@ const PersonalProjects = () => {
       `,
       proj_tools: ["React", "JavaScript"],
       proj_url: "https://github.com/sanadsoman45/ecommerce",
+    },
+    {
+      id: 6,
+      proj_name: "Cab Booking (Microservices)",
+      proj_desc: `
+        Designed a microservices architecture for an cab provider utilising docker containerization for packaging the node services, mongoDB and RabbitMQ. Leveraged RabbotMQ for setting up async communications between services.
+      `,
+      proj_tools: ["Node","Express","JavaScript","MongoDb","RabbitMQ", "Docker"],
+      proj_url: "https://github.com/sanadsoman45/Cab_booking_Microservices",
     },
   ];
 
